@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins',sans-serif;
+    margin: 2%;
+}
+/* app container */
+.generator-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 86%;
+    max-height: 100vh;
+    margin-top: 5%;
+    background-color: aqua;
+}
+/* header */
+.header-container {
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+}
+
+.header-container h1 {
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.header-container p {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+/* password span */
+.password-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: brown;
+    height: 57px;
+    margin: 5%;
+}
+
+.password {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    align-items: center;
+    margin: 1rem 0;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.copy-password {
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    margin-right: 0.3rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* settings section */
+
+.settings-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    background-color: red;
+    margin: auto;
+    max-height: 100vh;
+}
+
+.char-settings {
+    background-color: blue;
+    width: 80%;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.char-settings input {
+    width: 40px;
+    cursor: pointer;
+}
+
+/* button container */
+
+.button-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.btn {
+    width: 90%;
+    margin: 5%;
+    height: 30px;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
